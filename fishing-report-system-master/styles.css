@@ -1,0 +1,157 @@
+body, select, input{
+    font-family: 'Quicksand', sans-serif;
+    outline:none;
+}
+
+#plus {
+    display: block;
+    position: sticky;
+    bottom: 0px;
+    font-size: 80px;
+    cursor: pointer;
+    margin-left: 90%;
+    margin-top: 30%;
+    transition-duration: 0.3s;
+    color: blue;
+}
+
+#plus:hover {
+   color: #008ABA;
+   transition-duration: 0.3s;
+}
+.date {
+    left: 10px;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.storyIcons {
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+i[id = "menuIcons"] {
+    margin-right: 5%;
+    font-size: 30px;
+}
+.storyBlock {
+    display: inline-block;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    cursor: pointer;
+    width: 175px;
+    height: 175px;
+    background-color: rgba(0, 163, 203,0.5);
+    box-shadow: 0 6px 9px rgba(0,0,0,0.12), 0 5px 2px rgba(0,0,0,0.24);
+
+}
+.storyBlock:hover {
+    background-color: #02a4cc;
+    color: white;
+}
+.storiesBlock {
+    left: 2%;
+    top: 10px;
+    position: absolute;
+    width: 75%;
+}
+
+.menuBlock {
+    display: block;
+    position: sticky;
+    top: 10px;
+    width: 100px;
+    height: 100px;
+    left: 77%;
+}
+.menuButtons {
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+    font-weight:bold;
+    background-color: #0eaf1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.menuButtons:hover {
+    background-color: #0c9617;
+}
+/* modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(130, 212, 241, 0.5);
+}
+
+.modal-content {
+    font-size: 24px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5% auto;
+    height: 135%;
+    width: 45%;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+}
+#alert {
+    background-color: tomato;
+}
+.newPost {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.text {
+    display: block;
+    font-size: 18px;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+.selectMenu {
+    cursor: pointer;
+    outline: none;
+    height: 20px;
+    background-color: rgba(193, 199, 201, 0.3);
+}
+
+.inputTime {
+    background-color: rgba(193, 199, 201, 0.3);
+    outline: none;
+}
+.comments {
+    padding-bottom: 150px;
+    font-family: 24px;
+}
+
+input[type='submit'] { 
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: #1899C6;
+    width: 70px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    border: none; 
+}
+.send:hover {
+    background-color: #0886B2;
+}
+
+

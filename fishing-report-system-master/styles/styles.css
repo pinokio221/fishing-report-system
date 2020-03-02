@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(207, 223, 249);
+    font-family: 'Quicksand', sans-serif;
+}
+input {  
+    font-family: 'Quicksand', sans-serif;
+    margin-left: -10px;
+    outline: none;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+.auth {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.auth-content {
+    background-color: #00b6f4;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    margin: 10% auto;
+    height: 60%;
+    width: 50%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+.auth-content:hover {opacity: 1; transition-duration: 0.5s;}
+
+.field {
+    font-size: 40px;
+}
+#authIcon {
+    color: white;
+    margin-bottom: 12px;
+}
+.table {
+    margin: 100px auto;
+    padding-top: 70px;
+}
+
+td {
+    padding: 15px;
+}
+i[class="fas fa-arrow-right"] {
+    margin-left: 10px;
+}
+.authBtn {
+    margin-left: 65px;
+    position: absolute;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: #2560f7;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.authBtn:hover {
+    cursor: pointer;
+    transition-duration: 0.2s;
+    background-color: #003cd8;
+}
+
+.rText {
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    margin-left: 130px;
+    margin-top: 12px;
+}
+
+.rText:hover {
+    color: #cacdd1;
+}
+
+.notice {
+    cursor: default;
+    display: inline-block;
+    margin-top: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+    z-index: 20;
+    color: white;
+    font-weight: bold;
+    background-color: tomato;
+    border: 2px solid white;
+    height: 50px;
+    opacity: 0.8;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#noticeIcon {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+}

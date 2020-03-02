@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(207, 223, 249);
+    font-family: 'Quicksand', sans-serif;
+
+}
+input {
+    margin-left: 1%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid orange;
+}
+.regBlock {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.reg-content {
+    cursor: default;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    background-color: rgb(147, 188, 255);
+    margin: 5% auto;
+    height: 120%;
+    width: 55%;
+}
+.text-reg {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-shadow: 1px 0px 10px black;
+    font-size: 45px;
+    padding-top: 3%;
+    display: block;
+    text-align: center;
+}
+.rText {
+    display: block;
+    margin-top: 5%;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.choice, #choice1, #choice2 {cursor: pointer;}
+#line {
+    border: none;
+    height: 2px;
+    background-color: white;
+}
+.rBtn {
+    background-color: #0886B2;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    margin: 5% auto;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.rBtn:hover { 
+    transition-duration: 0.4s;
+    background-color: #06749b; 
+}
+.rBtn:active {
+    background-color: #035d7c;
+}
+.notice {
+    cursor: default;
+    display: inline-block;
+    margin-top: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+    z-index: 20;
+    color: white;
+    font-weight: bold;
+    background-color: tomato;
+    border: 2px solid white;
+    height: 50px;
+    opacity: 0.8;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#noticeIcon {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
